@@ -1,0 +1,13 @@
+test\hyb\proxy\MyAdvice.class
+test\hyb\proxy\ProxyDemo.class
+Test1$1.class
+Test1.class
+test\hyb\proxy\Advice.class
+test\hyb\UserService.class
+test\hyb\proxy\Animal.class
+test\hyb\UserServiceImpl.class
+test\hyb\cglib\CglibProxy.class
+test\hyb\UserServiceProxy.class
+test\hyb\proxy\ProxyDemo$1.class
+test\hyb\proxy\Dog.class
+test\hyb\cglib\SayHello.class

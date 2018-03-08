@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+    <script th:src="@{/js/jquery-1.10.2.js}"></script>
+    <script th:src="@{/js/bootstrap.min.js}"></script>
+    <script th:src="@{/fafugis/index.js}"></script>
+    <link th:href="@{/css/bootstrap.css}" rel="stylesheet"/>
+    <link th:href="@{/fafugis/index.css}" rel="stylesheet"/>
+</head>
+<body>
+<div id="topbar"></div>
+<div class="container">
+    <div class="row clearfix main" th:style="'background:url(' +@{/img/bg.jpg} + ');'">
+        <div class="col-md-12 column">
+        </div>
+    </div>
+    <div class="row clearfix btns">
+        <div class="col btn1">
+            <span>附近</span>
+        </div>
+        <div class="col btn2">
+            <span>查询</span>
+        </div>
+    </div>
+    <div class="row clearfix btns">
+        <div class="col btn3">
+           <span>路线规划</span>
+        </div>
+        <div class="col btn4">
+            <span>设置</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
